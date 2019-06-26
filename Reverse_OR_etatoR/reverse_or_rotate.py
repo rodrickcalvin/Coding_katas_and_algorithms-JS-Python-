@@ -9,5 +9,4 @@ def revrot(strng, sz):
                 z = [int(j) for j in i]
                 sumOfCubes = sum(map(lambda x: x**3, z))
                 modified.append(i[::-1]) if sumOfCubes%2==0 else modified.append(i[1:]+i[0])
-        print (('').join(modified))
-revrot("733049910872815764", 5)
+        retuyrn ('').join(modified)
